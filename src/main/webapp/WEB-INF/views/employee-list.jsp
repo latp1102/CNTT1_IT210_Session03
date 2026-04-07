@@ -31,7 +31,7 @@
                     <td>${employee.salary}</td>
                     <td>
                         <c:choose>
-                            <c:when test="${employee.salary > 10000}">
+                            <c:when test="${employee.salary >= 10000}">
                                 Mức lương cao
                             </c:when>
                             <c:otherwise>
